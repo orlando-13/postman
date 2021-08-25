@@ -1,0 +1,23 @@
+<interface>
+    <name>lo16</name>
+    <config>
+        <description>CONFIG CON RESTCONF AND XML EQUIPO6</description>
+        <type xmlns:ianaift="urn:ietf:params:xml:ns:yang-if-type">softwareLoopback</type>
+    </config>
+    <subinterfaces>
+        <subinterface>
+             <index>0</index>
+             <oc-ip:ipv4>
+                <oc-ip:addresses>
+                    <oc-ip:addess>
+                        <oc-ip:ip>16.16.16.16</oc-ip:ip>
+                        <oc-ip:config>
+                            <oc-ip:ip>16.16.16.16</oc-ip:ip>
+                            <oc-ip:prefix-length>32</oc-ip:prefix-length>
+                        </oc-ip:config>
+                    </oc-ip:addess>
+                <oc-ip:addresses>
+             </oc-ip:ipv4>
+        </subinterface>
+    </subinterfaces>
+</interface>

@@ -1,0 +1,39 @@
+<interfaces xmlns="http://openconfig.net/yang/interfaces">
+    <interface>
+    <name>vlan25</name>
+    <config>
+        <description>CONFIG XON RESTCONF AND XML EQUIPO6</description>
+        <enabled>false</enabled>
+        <mtu>1500<mtu>
+        <name>vlan25</name>
+        <type xmlns:ianaift="urn:ietf:params:xml:ns;iana-if-type">12vlan</type>
+    </config>
+    <state>
+        <admin-status>DOWN</admin-status>
+        <ifindex>151060505<ifindex>
+        <oper-status>DOWN</oper-status>
+        <description>CONFIG CON RESTCONF AND XML EQUIPO6</description>
+        <enabled>flase</enabled>
+        <mtu>1500</mtu>
+        <name>vlan25</name>
+    <routed-vlan xmlns="http://openconfig.net/yang/vlan">
+        <config>
+            <vlan>25<vlan>
+        </config>
+        <state>
+            <vlan>25</vlan>
+        </state>
+        <ipv4 xmlns="http://openconfig.net/yang/interfaces/ip">
+            <addresses>
+                <address>
+                    <ip>192.168.25.1</ip>
+                    <config>
+                        <ip>192.168.25.1</ip>
+                        <prefix-length>24</prefix-length>
+                    </config>
+                </address>
+            <addresses>
+        </ipv4>
+    </routed-vlan>
+    </state>
+    </interface>

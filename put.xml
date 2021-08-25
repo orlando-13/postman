@@ -1,0 +1,20 @@
+<interface>
+    <name>eth1/24</name>
+    <config>
+        <enabled>true</enabled>
+        <mtu>1500<</mtu>
+        <type xmlns:ianaift="urn:ietf:params:xml:ns;iana-if-type">EQUIPO6_PUT</type>
+    </config>
+    <subinterfaces>
+        <subinterface>
+            <index>0</index>
+        </subinterface>
+    </subinterfaces>
+    <ethernet>
+        <switched-vlan>
+            <config>
+                <interface-mode>TRUNK</interface-mode>
+            </config>
+        </switched-vlan>
+    </ethernet>
+</interface>
